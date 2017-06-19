@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La maison de la copie</title>
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+     
+       <!-- Barre de navigation -->
+
+
+    <header class="header">
+       <nav class="menu">
+
+      <h1 class="titre"><a href="index.html">LA&nbsp;&nbsp; MAISON<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DE LA COPIE</a></h1>
+
+       <ul>
+         <li class="mon_compte"><a class="nav" href="compte.html">MON COMPTE</a></li>
+         <li class="devis_en_ligne"><a class="nav" href="devis.html">DEVIS EN LIGNE</a></li>
+         <li class="inscription active"><a class="nav" href="inscription.html">S'INSCRIRE</a></li>  
+         <li class="accueil"><a class="nav" href="index.html">ACCUEIL</a></li>
+       </ul> 
+
+       <ul class="icones">
+          <li><a href='https://www.facebook.com/' class='symbol' title='circlefacebook'></a></li>
+          <li><a href='https://twitter.com/' class='symbol' title='circletwitterbird'></a></li>
+          <li><a href='https://accounts.google.com/' class='symbol' title='circlegoogleplus'></a></li>
+         
+       </ul>
+       </nav>
+    </header>
+
+
+      <div class="content">
+
+      <!-- formulaire vos coordonnées -->
+
+      <form>
+        <p class="title_form">Vos coordonnées</p>
+        Votre statut<span class="etoile">*</span> :
+        <select name="statut">
+          <option value="Particulier">Particulier</option>
+          <option value="Association">Association</option>
+          <option value="Entreprise">Entreprise</option>
+          <option value="Administration">Administration</option>
+          <option value="Etudiant">Etudiant</option>
+        </select><br>
+
+        Nom / raison sociale<span class="etoile">*</span> :&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="raison_sociale"><br>
+
+        Mail<span class="etoile">*</span> :
+        <input type="text" name="Mail" class="mail"><br>
+        Adresse :
+        <input type="text" name="adresse" class="adress"><br>
+        Complément adresse:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="adresse" class="complement_adress"><br>
+        Ville:
+        <input type="text" name="Mail" class="ville"><br>
+         Code postal:
+        <input type="text" name="code_postal" class="postal"><br>
+         <i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp; fixe :
+        <input type="text" name="Mail" class="fixe" placeholder=""><br>
+         <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp; mobile :
+        <input type="text" name="Mail" class="mobile"><br>
+      </form>
+
+      
+        <!-- formulaire Renseignements complémentaires -->
+
+      <form class="complement_info">
+        <p class="title_form_complement">Renseignements<br> <span class="titre_droite_form" >complémentaires</span></p>
+        Nom :
+        <select name="civilite_form" class="civilite">
+          <option value="Mme">Mme</option>
+          <option value="Mr" selected="selected">Mr</option>
+          <option value="Mademoiselle">Mademoiselle</option>
+        </select>
+        <input type="text" name="raison_sociale"><br>
+
+        Prénom :
+        <input type="text" name="prenom" class="prenom"><br>
+        Fonction :
+        <input type="text" name="fonction" class="fonction"><br>
+        Informations complémentaires:<br>
+        <textarea name="comment" form="usrform">Enter text here...</textarea>
+        
+      </form>
+
+
+      <!-- footer -->
+
+      <footer class="footer">
+
+        <p>Copyright © 2017 Maison de la Copie - Tous droits réservés </p>
+        <p>- SIREN 342 481 165 - <a href="#">contact@maison-copie.fr </a></p>
+
+     </footer>
+   
+      </div>
+     <div class="arriere_plan_gauche"></div>
+      <div class="arriere_plan_droite"></div>
+      
+  </body>
+  </html>

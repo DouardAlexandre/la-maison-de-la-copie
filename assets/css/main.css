@@ -1,0 +1,414 @@
+
+body{
+    height:1500px;
+    margin:0;
+    background-color:#f6f6f6; 
+    position: relative;
+ }
+
+/*--------header--------*/
+
+.header{
+    height: 120px;
+    width:91%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-top:40px;
+    margin-left:80px;
+    -moz-box-shadow: 0px 0px 13px 0px #c0c0c0;
+    -webkit-box-shadow: 0px 0px 13px 0px #c0c0c0;
+    -o-box-shadow: 0px 0px 13px 0px #c0c0c0;
+    box-shadow: 0px 0px 13px 0px #c0c0c0;
+
+}
+
+.titre{
+    margin:0 auto;
+    font-size: 40px;
+    font-family: "Source Sans Pro", sans-serif;                                       
+    font-weight: 900;
+    padding-left: 65px;
+    padding-top:30px;
+    position:absolute;
+    line-height: 27px;
+    
+}
+.titre a{
+    color: #404040;
+    text-decoration: none;
+}
+.titre a:hover{
+    color: #80A6AF;
+    text-decoration: none;
+}
+
+.menu li a{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;                                  
+    color: #80A6AF; 
+    line-height: 60px;
+ 
+
+}
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    float: right;
+    margin:0 auto;
+    height: 120px;
+    line-height: 120px;
+    padding-left:15px;
+    padding-right:40px;
+
+}
+.menu li a.nav::after{
+
+    display: inline-block;
+    content: "";
+    border: 1px solid #A60505;
+    margin: 0 15px 0 15px;
+    width: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    margin-bottom: 2px;
+}
+
+a:hover{                          
+    color: black;                               
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+
+
+/*--------accueil images--------*/
+
+
+.content{
+   
+    height:100%;
+    width:91%;
+    background-color:#f6f6f6;
+    -moz-box-shadow: 0px 5px 13px 0px #c0c0c0;
+    -webkit-box-shadow: 0px 5px 13px 0px #c0c0c0;
+    -o-box-shadow: 0px 5px 13px 0px #c0c0c0;
+    box-shadow: 0px 5px 13px 0px #c0c0c0;
+    margin-left:80px;
+    
+
+}
+
+.intro p{
+    margin:0;
+    padding-top :40px;
+    margin-left:40px;
+    font-family: 'Roboto', sans-serif;
+    color: #404040; 
+    font-size:18px;
+}
+
+.images{
+    display:inline-block;
+    padding-top :40px;
+    padding-left: 20px;
+   
+  
+}
+
+.papier_grain_bleu{
+    width:50%;
+    height:500px;
+   
+}
+.papier_grain_gris{
+    width:20%;
+    height:250px;
+    margin-left: 10px;
+    margin-bottom: 250px;
+  
+}
+.papier_grain_brown{
+    display: inline-block;
+    width:20%;
+    height:250px;
+    
+    
+}
+
+.Rennes{
+    color: #404040;
+}
+
+.slogan{
+    position :absolute;
+    top:200px;
+    font-family: 'Roboto', sans-serif;
+    color: #665E58; 
+    font-size: 50px; 
+    line-height:40px;
+    font-weight: 900;
+}
+
+.en_ligne{
+    color: #404040;
+}
+
+.expression{
+    font-size: 70px;
+    color: #404040;
+
+}
+.devis{
+    position :absolute;
+    top:310px;
+    right: 43%;
+    font-family: 'Roboto', sans-serif;
+    color: #665E58; 
+    font-size: 20px; 
+    line-height: 18px;
+    font-weight: 900;
+}
+.impression{
+    position :absolute;
+    top: 400px;
+    right: 22%;
+    font-family: 'Roboto', sans-serif;
+    color: #665E58; 
+    font-size: 20px; 
+    line-height: 18px;
+    font-weight: 900;
+}
+.lien_devis{
+    text-decoration: none;
+    color: #665E58; 
+}
+
+/*-------- accueil url-mail-tel-------*/
+
+
+.ruban_contacts{
+    width:100%;
+    background-color: white;
+    height:300px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+
+    color: #80A6AF; 
+    font-size: 28px; 
+    display: inline-flex;
+    
+}
+.contact{
+    padding-top: 30px;
+    padding-left: 180px;
+}
+.accroche{
+     position:absolute;
+     margin-top: 130px;
+     text-align: center;
+     font-family: 'Dancing Script', cursive;
+     font-size: 30px;
+     left:35%;
+
+}
+
+.adresse{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: #80A6AF; 
+    font-size: 25px; 
+    float:left;
+    padding-top:20px;
+    margin-left:112px;
+}
+
+.horaires{
+    
+    font-size:18px; 
+}
+
+.map{
+    position :absolute;
+    width:30%;
+    height:300px;
+    right:200px;
+    bottom: 160px;
+
+}
+
+/*--------formulaire inscription--------*/
+
+
+
+form{
+    padding:40px 0 0 40px;
+    font-family: 'Roboto', sans-serif;
+    color: #80A6AF; 
+    line-height: 40px;
+    float:left;
+    clear: right;
+
+
+}
+.title_form{
+    font-family: 'Roboto', sans-serif;
+    color: #80A6AF; 
+    margin:0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    
+}
+
+.title_form_complement{
+    font-family: 'Roboto', sans-serif;
+    color: #80A6AF; 
+    margin:0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 30px;
+    
+}
+.title_form:before{
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #A60505;
+    width: 120px;
+    margin: 0 0.7rem;
+    transform: translateY(-.4rem);
+}
+.complement_info{
+    padding-left: 280px;
+}
+.titre_droite_form{
+    padding-left: 120px;
+}
+.title_form_complement:before{
+    display: inline-block;
+    content: "";
+    border-top: 1px solid #A60505;
+    width: 100px;
+    margin: 0 0.7rem;
+    transform: translateY(-.4rem);
+}
+
+
+input, textarea, select, button {
+  width : 200px;
+  margin: 0;
+  color:#80A6AF;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+select{
+    margin-left:80px;
+}
+
+.mail{
+    margin-left:133px;
+}
+.adress{
+    margin-left:112px;
+}
+.ville{
+     margin-left:145px;
+}
+.postal{
+     margin-left:90px;
+}
+.fixe{
+     margin-left:122px;
+}
+.mobile{
+     margin-left:104px;
+}
+.etoile{
+    color:#A60505;
+}
+
+.prenom{
+    margin-left:104px;
+}
+.fonction{
+    margin-left:98px;
+}
+.civilite{
+     width: 40px;
+}
+textarea{
+    width:370px;
+    height:150px;
+}
+.source{
+    margin-left:200px;
+}
+.nbr_pages{
+    margin-left:210px;
+}
+/*--------formulaire devis--------*/
+
+.couleur{
+     margin-left:125px;
+}
+
+
+
+/*--------footer------*/
+
+.footer{
+  
+    width:91%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #efefef;
+    text-align: center;
+    margin-left:80px;
+    font-family: 'Roboto', sans-serif;
+    color: #80A6AF; 
+
+}
+
+.arriere_plan_gauche{
+ 
+    width:80px;
+    height:80px;
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    background-color: rgba(204,204,204,.3);
+  
+  
+}
+.arriere_plan_droite{
+
+    width:1000px;
+    height:80px;
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    bottom: 20px;
+    background-color: rgba(204,204,204,.3);
+}
+
+.footer a{
+    text-decoration: none;
+    color: #404040; 
+}
